@@ -1,0 +1,50 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		System.out.println(exibirNome("Flávio Tromba"));
+		System.out.println(exibirIdade(29));
+		System.out.println(exibirAltura(1.74));;
+		System.out.println(exibirEstadoECidade("São Paulo","São Paulo"));
+		System.out.println(exibirCep("03533-030"));
+		metodo1SemRetorno();
+		metodo2SemRetorno();
+		metodo3SemRetorno();
+		metodo4SemRetorno();
+		metodo5SemRetorno();
+	}
+	
+	public static String exibirNome (String nome) {
+		return nome;
+	}
+	public static int exibirIdade(int idade) {
+		return idade;
+	}
+	public static double exibirAltura(double altura) {
+		return altura;
+	}
+	public static String exibirEstadoECidade(String estado, String cidade) {
+		return estado+cidade;
+	}
+	public static String exibirCep(String cep) {
+		return cep;
+	}
+	
+	
+	public static void metodo1SemRetorno() {
+		System.out.println("Executou o primeiro método sem retorno");
+	}
+	public static void metodo2SemRetorno() {
+		System.out.println("Executou o segundo método sem retorno");
+	}
+	public static void metodo3SemRetorno() {
+		System.out.println("Executou o terceiro método sem retorno");
+	}
+	public static void metodo4SemRetorno() {
+		System.out.println("Executou o quarto método sem retorno");
+	}
+	public static void metodo5SemRetorno() {
+		System.out.println("Executou o quinto método sem retorno");
+	}
+}
+
+

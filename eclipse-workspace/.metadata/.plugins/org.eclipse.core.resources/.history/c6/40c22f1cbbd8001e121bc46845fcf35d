@@ -1,0 +1,20 @@
+package exercicio10;
+import java.util.Scanner;
+public class execucaoExercicio10 {
+	
+	public static void main(String[] args) {
+		
+		Scanner input=new Scanner(System.in);
+		exercicio10 empregado1=new exercicio10();
+		System.out.println("Digite o nome");
+		String nome=input.nextLine();
+		System.out.println("Digite o sobrenome");
+		String sobrenome=input.nextLine();
+		System.out.println("Digite o salário");
+		double salario=input.nextDouble();
+		System.out.println("Nome: "+empregado1.nome(nome)+"\nSobrenome: "+empregado1.sobrenome(sobrenome)+"\nSalario: "+empregado1.salario(salario));
+		System.out.println("Digite o valor do aumento");
+		double aumento=input.nextDouble();
+		System.out.println("Salário com aumento: "+empregado1.novoSalario(salario, aumento)+"\nSalário anual: "+empregado1.salarioAnual(salario));
+	}
+}

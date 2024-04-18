@@ -1,0 +1,7 @@
+public class Execucao {
+	
+	public static void main(String[] args) {
+		Exercicio02Easy exercicio02Easy=newExercicio02Easy()
+		String palavra = Exercicio02Easy.retornaPalavra("Flávio");
+	}
+}

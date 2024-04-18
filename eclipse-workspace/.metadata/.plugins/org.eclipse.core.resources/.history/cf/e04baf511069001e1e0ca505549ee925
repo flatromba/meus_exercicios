@@ -1,0 +1,15 @@
+package Exercicio19extra;
+import java.util.Scanner;
+public class Execucao {
+	
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		int numero=0,i=0;
+		Exercicio19extra exercicio19extra=new Exercicio19extra();
+		while (i==0 && numero>=0)  {
+			System.out.println("Digite um número");
+			numero=input.nextInt();
+		}
+		System.out.println("A soma é: "+exercicio19extra.retornaSoma(numero));
+	}
+}

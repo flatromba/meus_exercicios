@@ -1,0 +1,8 @@
+import javax.swing.JOptionPane;
+public class Main {
+	public static void main(String[] args) {	
+		String palavra;	
+		palavra = JOptionPane.showInputDialog("Digite uma palavra");
+		System.out.println("Palavra digitada:"+palavra);
+	}
+}

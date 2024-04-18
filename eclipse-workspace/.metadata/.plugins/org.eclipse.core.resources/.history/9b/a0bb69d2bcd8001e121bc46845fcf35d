@@ -1,0 +1,48 @@
+package exercicio10;
+
+public class exercicio10 {
+	
+	public String nome1(String nome) {
+		return nome;
+	}
+	
+	public String sobrenome1(String sobrenome) {
+		return sobrenome;
+	}
+	
+	public double salario1(double salario) {
+		return salario;
+	}
+	
+	public double novoSalario1(double salario,double aumento) {
+		double novoSalario=salario+(salario*aumento);
+		return novoSalario;
+	}
+	
+	public double salarioAnual1(double novoSalario) {
+		double salarioAnual=novoSalario*12;
+		return salarioAnual;
+	}
+	
+	public String nome2(String nome) {
+		return nome;
+	}
+	
+	public String sobrenome2(String sobrenome) {
+		return sobrenome;
+	}
+	
+	public double salario2(double salario) {
+		return salario;
+	}
+	
+	public double novoSalario2(double salario,double aumento) {
+		double novoSalario=salario+(salario*aumento);
+		return novoSalario;
+	}
+	
+	public double salarioAnual2(double novoSalario) {
+		double salarioAnual=novoSalario*12;
+		return salarioAnual;
+	}
+}

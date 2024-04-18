@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		int anos, diasAnos, meses, diasMeses, dias, diasTotais;
+		System.out.println("Digite quantos anos");
+		anos=input.nextInt();
+		System.out.println("Digite quantos meses");
+		meses=input.nextInt();
+		System.out.println("Digite quantos dias");
+		dias=input.nextInt();
+		diasAnos=365*anos;
+		diasMeses=30*meses;
+		diasTotais=diasAnos+diasMeses+dias;
+		System.out.println("A quantidade de total de dias é: "+diasTotais);
+		
+	}
+}
+
+

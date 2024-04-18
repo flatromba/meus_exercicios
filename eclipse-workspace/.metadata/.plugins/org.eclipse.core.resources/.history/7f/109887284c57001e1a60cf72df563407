@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		double saldo, reajuste=0.01, reajusteSaldo;
+		System.out.println("Digite o saldo");
+		saldo=input.nextDouble();
+		reajusteSaldo=(reajuste*saldo)+saldo;
+		System.out.println("O saldo com reajuste é: "+reajusteSaldo);
+	}
+}
+
+

@@ -1,0 +1,9 @@
+package Exercicio02easy;
+
+public class Execucao {
+	public static void main(String[] args) {
+		Exercicio02easy exercicio02easy=new Exercicio02easy();		
+		String palavra=exercicio02easy.retornaPalavra("Flávio");
+		System.out.println(palavra);
+	}
+}

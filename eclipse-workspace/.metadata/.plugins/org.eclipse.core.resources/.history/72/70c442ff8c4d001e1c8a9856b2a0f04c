@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int numero1, numero2, numero3, soma, subtracao, multiplicacao;
+		double media;
+		System.out.println("Digite o número");
+		numero1=input.nextInt();
+		System.out.println("Digite o número");
+		numero2=input.nextInt();
+		System.out.println("Digite o número");
+		numero3=input.nextInt();
+		soma=numero1+numero2+numero3;
+		subtracao=numero1-numero2-numero3;
+		multiplicacao=numero1*numero2*numero3;
+		media=soma/3;
+		System.out.println("A soma é:"+soma);
+		System.out.println("A subtração é:"+subtracao);
+		System.out.println("A multiplicação é:"+multiplicacao);
+		System.out.println("A média é:"+media);
+	}
+}

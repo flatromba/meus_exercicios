@@ -1,0 +1,12 @@
+package Exercicio11extra;
+
+public class Exercicio11extra {
+	
+	public int retornaSoma(int numero) {
+		int soma=numero;
+		for (int i=0;i<10;i++) {
+			soma=soma+numero;
+		}
+		return soma;
+	}
+}

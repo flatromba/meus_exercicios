@@ -1,0 +1,12 @@
+package Exercicio19extra;
+
+public class Exercicio19extra {
+	
+	public void retornaSoma(int numero) {		
+		int soma=0,i=0;		
+		while (i==0 && numero>=0) {
+			soma=soma+numero;
+		}
+		System.out.println("Número inválido\nFIM!");
+	}
+}
