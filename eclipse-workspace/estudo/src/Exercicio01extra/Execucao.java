@@ -12,6 +12,6 @@ public class Execucao {
 		mes=input.nextInt();
 		System.out.println("Digite quantos dias");
 		dia=input.nextInt();
-		System.out.println("Idade em dias é: "+(flavio.retornaAnosEmDias(ano)+flavio.retornaMesesEmDias(mes)+dia));
+		System.out.println("Sua idade em dias é: "+(flavio.retornaAnosEmDias(ano)+flavio.retornaMesesEmDias(mes)+dia));
 	}
 }

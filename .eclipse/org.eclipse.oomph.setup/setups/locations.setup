@@ -4,9 +4,17 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0">
   <installation>
+    <key href="file:/C:/QA/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/C:/QA/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+  </installation>
+  <installation>
     <key href="file:/C:/Users/Pc/eclipse/java-2023-06/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
     <value href="file:/C:/Users/Pc/eclipse-workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
   </installation>
+  <workspace>
+    <key href="file:/C:/QA/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/C:/QA/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+  </workspace>
   <workspace>
     <key href="file:/C:/Users/Pc/eclipse-workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
     <value href="file:/C:/Users/Pc/eclipse/java-2023-06/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
